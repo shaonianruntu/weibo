@@ -1,3 +1,11 @@
+/*
+ * @Description:
+ * @Author: fangn
+ * @Github:
+ * @Date: 2019-08-29 10:13:20
+ * @LastEditors: fangn
+ * @LastEditTime: 2019-08-30 20:26:00
+ */
 const mix = require('laravel-mix');
 
 /*
@@ -12,4 +20,5 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+    .version();
