@@ -4,7 +4,7 @@
  * @Github:
  * @Date: 2019-08-29 10:13:20
  * @LastEditors: fangn
- * @LastEditTime: 2019-08-30 20:26:00
+ * @LastEditTime: 2019-08-30 20:38:16
  */
 const mix = require('laravel-mix');
 
